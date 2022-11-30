@@ -15,6 +15,6 @@ int main()
         c/=3;
     }
     if(w==0)
-    w=1;
+        w=1;
     cout<<sum<<" Chocolates with "<<w<<" wrappers left";
 }

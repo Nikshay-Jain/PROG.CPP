@@ -15,9 +15,7 @@ int main()
     int presum[n+1];
     presum[0]=0;
     for(i=1;i<n+1;i++)
-    {
         presum[i]=presum[i-1]+a[i-1];
-    }
     int max_sum=INT_MIN;
     for(i=0;i<n+1;i++)
     {

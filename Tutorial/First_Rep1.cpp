@@ -8,9 +8,7 @@ int main()
     int a[n];
     cout<<"Enter elements:"<<endl;
     for(i=0;i<n;i++)
-    {
         cin>>a[i];
-    }
     for(i=0;i<n;i++)
     {
         for(j=i+1;j<n;j++)
@@ -23,8 +21,6 @@ int main()
             }
         }
         if(t==1)
-        {
             break;
-        }
     }
 }
