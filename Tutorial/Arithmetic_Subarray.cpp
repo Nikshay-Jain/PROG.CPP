@@ -14,9 +14,7 @@ int main()
     while(i<n)
     {
         if(a[i]-a[i-1]==pd)
-        {
             l++;
-        }
         else
         {
             pd=a[i]-a[i-1];
