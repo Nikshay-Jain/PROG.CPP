@@ -8,9 +8,7 @@ int main()
     int a[n];
     cout<<"Enter array"<<endl;
     for(i=0;i<n;i++)
-    {
         cin>>a[i];
-    }
     cout<<"Enter sum needed"<<endl;
     cin>>s;
     i=0;
@@ -20,9 +18,7 @@ int main()
         j++;
     }
     if(sum==s)
-    {
         cout<<i+1<<" "<<j<<endl;
-    }
     while(j<n)
     {
         sum+=a[j];

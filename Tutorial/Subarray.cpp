@@ -8,9 +8,7 @@ int main()
     int a[n];
     cout<<"Enter array"<<endl;
     for(i=0;i<n;i++)
-    {
         cin>>a[i];
-    }
     cout<<"Sum of subarrays:"<<endl;
     for(i=0;i<n;i++)
     {

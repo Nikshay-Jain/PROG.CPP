@@ -11,9 +11,7 @@ void Selection(int n[],int l)
         for(j=i+1;j<l;j++)
         {
             if(n[j]<n[min])
-            {
                 min=j;
-            }
         }
         if(n[min]!=n[i])
         {
@@ -24,9 +22,7 @@ void Selection(int n[],int l)
         }
     }
     for(i=0;i<l;i++)
-    {
         cout<<n[i]<<endl;
-    }
     cout<<c<<" swaps by Selection Sort\n"<<endl;
 }
 void Bubble(int n[],int l)
@@ -46,9 +42,7 @@ void Bubble(int n[],int l)
         }
     }
     for(i=0;i<l;i++)
-    {
         cout<<n[i]<<endl;
-    }
     cout<<c<<" swaps by Bubble sort\n"<<endl;
 }
 void Insertion(int n[],int l)
@@ -67,9 +61,7 @@ void Insertion(int n[],int l)
         n[j+1]=t;
     }
     for(i=0;i<l;i++)
-    {
         cout<<n[i]<<endl;
-    }
     cout<<c<<" swaps in Insertion search\n"<<endl;
 }
 int main()

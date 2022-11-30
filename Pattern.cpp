@@ -6,36 +6,28 @@ void Quad1(int n)
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=i;j++)
-        {
             cout<<i<<" ";
-        }
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=i;j++)
-        {
             cout<<j<<" ";
-        }
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=i;j++)
-        {
             cout<<n-i+1<<" ";
-        }
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=i;j++)
-        {
             cout<<n-j+1<<" ";
-        }
         cout<<endl;
     }
 }
@@ -45,52 +37,36 @@ void Quad2(int n)
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n-i;j++)
-        {
             cout<<"  ";
-        }
         for(j=1;j<=i;j++)
-        {
             cout<<i<<" ";
-        }   
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n-i;j++)
-        {
             cout<<"  ";
-        }
         for(j=1;j<=i;j++)
-        {
-            cout<<j<<" ";
-        }   
+            cout<<j<<" "; 
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n-i;j++)
-        {
             cout<<"  ";
-        }
         for(j=1;j<=i;j++)
-        {
-            cout<<n-i+1<<" ";
-        }   
+            cout<<n-i+1<<" "; 
         cout<<endl;
     }
     cout<<endl;
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n-i;j++)
-        {
             cout<<"  ";
-        }
         for(j=1;j<=i;j++)
-        {
-            cout<<n-j+1<<" ";
-        }   
+            cout<<n-j+1<<" "; 
         cout<<endl;
     }
     cout<<endl;
@@ -100,13 +76,9 @@ void Quad3(int n)
     for(i=n;i>=1;i--)
     {
         for(j=1;j<=n-i;j++)
-        {
             cout<<"  ";
-        }
         for(j=1;j<=i;j++)
-        {
             cout<<i<<" ";
-        }   
         cout<<endl;
     }
     cout<<endl;
