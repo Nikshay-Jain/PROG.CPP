@@ -11,16 +11,13 @@ int main()
     {
         for(j=0;j<n2;j++)
             cin>>m1[i][j];
+        for(j=0;j<n3;j++)
+            m3[i][j]=0;
     }
     for(i=0;i<n2;i++)
     {
         for(j=0;j<n3;j++)
             cin>>m2[i][j];
-    }
-    for(i=0;i<n1;i++)
-    {
-        for(j=0;j<n3;j++)
-            m3[i][j]=0;
     }
     for(i=0;i<n1;i++)
     {
